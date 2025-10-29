@@ -23,20 +23,7 @@ A modern, responsive React-based transaction management dashboard built for the 
 ## Component Structure
 
 \`\`\`
-src/
-├── app/
-│   ├── page.tsx                 # Main dashboard page
-│   ├── layout.tsx               # Root layout
-│   └── globals.css              # Global styles
-├── components/
-│   ├── transaction-summary.tsx  # Summary cards (inflow, outflow, balance)
-│   ├── transaction-form.tsx     # Form to add new transactions
-│   ├── transaction-list.tsx     # List container with export button
-│   ├── transaction-item.tsx     # Individual transaction row
-│   ├── transaction-filters.tsx  # Filter buttons
-│   └── export-button.tsx        # CSV export functionality
-└── types/
-    └── transaction.ts           # TypeScript interfaces
+![alt text](image.png)
 \`\`\`
 
 ## Key Design Decisions
@@ -53,12 +40,7 @@ src/
 
 ### 3. **Data Flow**
 \`\`\`
-Home (main state) 
-  ├── TransactionSummary (read-only)
-  ├── TransactionForm (add transaction)
-  ├── TransactionFilters (filter state)
-  └── TransactionList
-      └── TransactionItem (delete transaction)
+![alt text](image-1.png)
 \`\`\`
 
 ### 4. **Styling Approach**
@@ -89,7 +71,7 @@ Home (main state)
 1. **Clone the repository**
    \`\`\`bash
    git clone <repository-url>
-   cd afripay-transaction-dashboard
+   cd afripay-fe-task
    \`\`\`
 
 2. **Install dependencies**
